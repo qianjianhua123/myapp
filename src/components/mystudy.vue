@@ -2,9 +2,9 @@
   <div class="box">
 
     <div>
-      <el-carousel height="300px" style="width: 100%; border-radius: 20px">
+      <el-carousel  style="width: 100%; border-radius: 20px;height:300px" >
         <el-carousel-item v-for="item in imglist" :key="item">
-          <img :src="item.url" style="width: 100%; height: 300px" />
+          <img :src="item.url" style="width: 100%; height:300px" />
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -45,18 +45,18 @@ export default {
 
 <style scoped>
 .box {
-  width: 600px;
+  width: 70%;
   height: 90%;
   display: none;
-  margin-top: 15px;
 }
 .box > div {
   width: 100%;
-  height: 300px;
   display: flex;
   flex-direction: column;
-
   border-radius: 20px;
+}
+.box>div:nth-child(1){
+  height: 300px;
 }
 img {
   border-radius: 20px;

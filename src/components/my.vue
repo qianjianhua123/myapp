@@ -25,7 +25,7 @@ export default {
                 {title:"现居地",name:"江苏无锡市"},
                 {title:"工作状况",name:"求职中"},
                 {title:"求职方向",name:"web前端开发"},
-                {title:"工作经验",name:"一年web前端开发实习经验"},
+                {title:"工作经验",name:"一年web前端开发经验"},
             ]
         }
 
@@ -43,16 +43,15 @@ export default {
 
 <style scoped>
 .box {
-  width: 600px;
+  width: 80%;
   height: 90%;
-  
   display: none; 
   margin-top: 15px;
 }
 .box>div{
     display: flex;
+    height: 11%;
     align-items: center;
-    height: 50px;
     border-bottom:1px dashed #2867ce ;
 }
 .box>div>span:nth-child(1){

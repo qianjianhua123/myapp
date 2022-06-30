@@ -5,7 +5,7 @@
            <div>
              <div class="body_left">
                 <div class="title">
-                    <img src="../imgs/title.jpg">
+                    <img src="../imgs/person.jpg">
                     <h5>♥爱意随风起♥</h5>
                 </div>
 
@@ -21,6 +21,8 @@
                 </div>
                 </div>
              </div>
+
+
              <div class="body_right">
               <router-view></router-view>
              </div>
@@ -50,7 +52,7 @@ export default {
   },
   methods:{
     index_select(index){
-      this.num = index
+     this.num = index
      switch (index) {
       case 0:
        this.$router.push("/");
@@ -86,7 +88,8 @@ export default {
 <style scoped>
 .big{
    height: calc(100vh - 60px);
-  background-color: rgb(90, 243, 217);
+   background-color: rgb(90, 243, 217);
+  
   
 }
 .index_body {
@@ -94,28 +97,10 @@ export default {
   background-color: rgb(90, 243, 217);
   display: none;
 }
-.index_top > div {
-  width: 800px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-.index_top > div > span {
-  height: 100%;
-  flex: 1;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  transition: all 1s;
-}
-.index_top > div > span:hover{
-   background: rgb(222, 243, 240);
-   color: rgb(66, 102, 150);
-}
+
 .index_body>div{
-    width: 1200px;
+    background:green ;
+    width: 90vw;
     height: 100%;
     background-color: rgb(90, 243, 217);
     margin: 0px auto;
@@ -124,7 +109,7 @@ export default {
     align-items: center;
 }
 .body_left,.body_right{
-    width: 350px;
+    flex: 0.8;
     height: 90%;
     border-radius:30px ;
     background-color: #c9eddf;
@@ -139,16 +124,16 @@ export default {
     flex-direction: column;
 }
 .body_right{
-    width: 800px;
+     flex: 2;
     margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 img{
- width:100px;
+ width:80px;
  margin: 10px auto;
- border-radius: 50% ;
+ border-radius:10px ;
 }
 .title{
     width: 100%;
@@ -159,6 +144,7 @@ img{
     align-items: center;
     transition: all 1s;
     color: #426696;
+   
 }
 .title:hover{
     background-color:#e7faf3;
@@ -176,6 +162,7 @@ img{
     width: 120px;
     justify-content:space-between;
     align-items: center;
+    
 }
 .item>div>i{
   font-size: 30px;

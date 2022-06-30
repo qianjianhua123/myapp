@@ -40,11 +40,9 @@ export default {
 
 <style scoped>
 .box {
-  width: 600px;
+  width: 70%;
   height: 90%;
   display: none;
-  margin-top: 15px;
-  
 }
 .box>div{
   width: 90%;
@@ -56,7 +54,7 @@ export default {
 }
 .item{
   display: flex;
-  height: 80px;
+  height: 20%;
   align-items: center;
   font-size: 30px;
   border-bottom: 1px dashed #2867ce;

@@ -23,10 +23,9 @@ export default {
 
 <style scoped>
 .box {
-  width: 600px;
+  width: 70%px;
   height: 90%;
   display: none;
-  margin-top: 15px;
   border-radius:30px ;
 }
 img{
