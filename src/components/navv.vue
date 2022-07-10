@@ -20,7 +20,7 @@ export default {
         { name: "相关技能", eng: "Skills" },
         { name: "项目经验", eng: "Experience" },
         { name: "其他", eng: "Other" },
-         { name: "11", eng: "Other" },
+        { name: "22", eng: "Other" },
       ],
       num:0
         }
