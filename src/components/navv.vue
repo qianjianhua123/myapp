@@ -21,6 +21,7 @@ export default {
         { name: "项目经验", eng: "Experience" },
         { name: "其他", eng: "Other" },
         { name: "22", eng: "Other" },
+         { name:"33", eng: "Other" },
       ],
       num:0
         }
