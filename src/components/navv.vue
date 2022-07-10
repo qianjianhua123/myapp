@@ -16,9 +16,11 @@ export default {
         return{
     list: [
         { name: "测试分支", eng: "Home" },
+        { name: "我的主页", eng: "Home" },
         { name: "相关技能", eng: "Skills" },
         { name: "项目经验", eng: "Experience" },
         { name: "其他", eng: "Other" },
+         { name: "11", eng: "Other" },
       ],
       num:0
         }
